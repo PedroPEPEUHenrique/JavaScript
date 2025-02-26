@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site zero</title>
+</head>
+<body>
+
+    <script>
+        nome = prompt("Digite o nome do aluno: ")
+        idade = prompt("Digite a idade do aluno: ")
+        turma = prompt("Digite a turma do aluno: ")
+        var aluno = [nome, idade, turma]
+
+        alert(aluno[0]+ aluno[1] + aluno[2])
+
+    </script>
+
+    <script>
+        var titulo = prompt("O nome do filme: ")
+        var ano = prompt("O ano do filme: ")
+        var genero = prompt("O genero do filme: ")
+        var catalogo = [titulo , ano, genero]
+
+        document.write(catalogo)
+    </script>
+
+    <Script>
+        var tomate = 5.99
+        var picanha = 70.99
+        var skollata = 3.99
+        var arrozcota = 21.99
+
+        while(algomais > -1){
+            quantidade = prompt("Quanto de tomate: ")
+            tomate = quantidade * tomate;
+            quantidade = prompt("Quanto de picanha: ")
+            picanha = quantidade * picanha;
+            quantidade = prompt("Quantas latinhas de skol: ")
+            skollata = quantidade * skollata;
+            quantidade = prompt("Quantidade de arroz: ")
+            arrozcota = prompt
+
+            algomais = prompt("Algo mais? ")
+        }
+        carrinho[tomate, picanha, skollata, arrozcota]
+        alert(carrinho[0]+carrinho[1]+carrinho[2]+carrinho[3])
+
+    </Script>
+    
+</body>
+</html>
