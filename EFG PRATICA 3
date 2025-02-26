@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site zero</title>
+</head>
+<body>
+    <script>
+        var nota = parseFloat("Digite um nota entre 0 e 10: ")
+        if(nota >= 7){
+            alert('APROVADO')
+        }
+        else{
+            alert('REPROVADO')
+        }
+    </script>
+    <SCript>
+        var item = parseInt("Digite um item de 0 a 10: ")
+        switch (item){
+            case 1:
+                alert('Bebidas');
+                break;
+            
+            case 2:
+                alert('Laticínios');
+                break;
+
+            case 3:
+                alert('Bebidas');
+                break;
+            
+            case 4:
+                alert('Bebidas');
+                break;
+
+            case 5:
+                alert('Arroz');
+                break;
+
+            case 6:
+                alert('Carnes');
+                break;
+
+            case 7:
+                alert('Feijão');
+                break
+
+            case 8:
+                alert('Doces');
+                break;
+
+            case 9:
+                alert('Salgados');
+                break;
+
+            case 10:
+                alert('Refrigerante');
+                break;
+
+            default:
+                alert('NUMERO INVALIDO')
+                break;
+
+        }
+    </SCript>
+
+    <script>
+        var idade = parseInt('Digite sua idade')
+        idade >= 18 ? "Maior de idade" : "Menor de idade"
+    </script>
+
+    <script>
+        var valorTotal = parseFloat("Digite o valor total da compra:");
+        var Assinatura = prompt("Digite o tipo de assinatura (silver, gold ou platinum): ").toLowerCase();
+
+        let desconto = 0;
+
+        switch(Assinatura){
+            case "silver":
+                desconto = 0.05;
+                break;
+
+            case "gold":
+                desconto = 0.10;
+                break;
+
+            case "platinum":
+                desconto = 0.15;
+                break;
+
+            default:
+                alert('SEM ASSINATURA');
+                break;
+        }
+        var valor = valorTotal - (valorTotal * desconto);
+        if(valor > 300.00){
+            alert("Ganhou um brinde");
+        }
+        else{
+            alert("valor total é R$", valor);
+        }
+
+
+    </script>
+    
+</body>
+</html>
