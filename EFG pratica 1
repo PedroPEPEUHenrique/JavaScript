@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function calcular() {
+            var n1 = parseInt(document.getElementById('n1').value, 10);
+            var n2 = parseInt(document.getElementById('n2').value, 10);
+            document.getElementById('resultado').innerHTML = n1 + n2;
+          }
+    </script>
+
+    <script>
+        var media, n1, n2, n3 ;
+
+        n1= prompt ("Informe a primeira nota: ") ;
+        n1= eval (n1) ;
+
+        n2= prompt ("Informe a segunda nota: ") ;
+        n2= eval (n2) ; 
+
+        n3= prompt ("Informe a terceira nota: ") ; 
+        n3= eval (n3) ;
+
+        media = (n1 + n2 + n3)/3 ; 
+
+        if ( media >= 6 ) {
+        document.write ("Aprovado");
+
+        } 
+        if(media <= 5) {
+            document.write ("Reprovado");
+        }
+        else{
+            document.write ("Recuperação");
+    }
+    </script>
+    
+</body>
+</html>
